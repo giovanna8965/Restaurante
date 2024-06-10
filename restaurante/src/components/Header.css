@@ -1,0 +1,57 @@
+.header {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  .main-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+    color: #e8491d;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    letter-spacing: 2px;
+  }
+  
+  .social-icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons .social-icon {
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icons .social-icon:hover {
+    color: #e8491d;
+    transform: scale(1.1);
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav ul li a:hover {
+    color: #e8491d;
+  }
+  
